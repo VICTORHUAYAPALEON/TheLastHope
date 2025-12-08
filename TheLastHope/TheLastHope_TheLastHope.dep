@@ -1,63 +1,0 @@
-Dependencies for Project 'TheLastHope', Target 'TheLastHope': (DO NOT MODIFY !)
-CompilerVersion: 6240000::V6.24::ARMCLANG
-F (.\TheLastHope.c)(0x5F075D58)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-IC:/Users/victo/AppData/Local/Keil_v5/ARM/RV31/INC-IC:/Users/victo/AppData/Local/Keil_v5/ARM/INC/TI/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./thelasthope.o -MMD)
-I (ST7735.h)(0x5EF94149)
-I (tm4c123gh6pm.h)(0x5EF23F94)
-I (PLL.h)(0x5EFDE111)
-I (UART.h)(0x5EFDE111)
-I (SysTick.h)(0x5F075A2E)
-I (LEDS_Y_PULSADORES.h)(0x5F07291D)
-I (MODO_JUEGO.h)(0x5F067CA8)
-I (mostrar_ocultar.h)(0x5F076128)
-I (MENU.h)(0x5F04CD9A)
-I (DAC.h)(0x5F01F9A7)
-F (.\tm4c123gh6pm.h)(0x5EF23F94)()
-F (.\startup.s)(0x5F07753B)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -Wa,armasm,--pd,"__MICROLIB SETA 1" -Wa,armasm,--pd,"__EVAL SETA 1"-IC:/Users/victo/AppData/Local/Keil_v5/ARM/RV31/INC-IC:/Users/victo/AppData/Local/Keil_v5/ARM/INC/TI/TM4C123-Wa,armasm,--pd,"__UVISION_VERSION SETA 543"-o ./startup.o)
-F (.\LEDS_Y_PULSADORES.c)(0x5F04CB34)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-IC:/Users/victo/AppData/Local/Keil_v5/ARM/RV31/INC-IC:/Users/victo/AppData/Local/Keil_v5/ARM/INC/TI/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./leds_y_pulsadores.o -MMD)
-I (tm4c123gh6pm.h)(0x5EF23F94)
-I (LEDS_Y_PULSADORES.h)(0x5F07291D)
-F (.\LEDS_Y_PULSADORES.h)(0x5F07291D)()
-F (.\PLL.c)(0x5F04CB79)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-IC:/Users/victo/AppData/Local/Keil_v5/ARM/RV31/INC-IC:/Users/victo/AppData/Local/Keil_v5/ARM/INC/TI/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./pll.o -MMD)
-I (PLL.h)(0x5EFDE111)
-I (tm4c123gh6pm.h)(0x5EF23F94)
-F (.\PLL.h)(0x5EFDE111)()
-F (.\SysTick.c)(0x5F07626A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-IC:/Users/victo/AppData/Local/Keil_v5/ARM/RV31/INC-IC:/Users/victo/AppData/Local/Keil_v5/ARM/INC/TI/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./systick.o -MMD)
-I (tm4c123gh6pm.h)(0x5EF23F94)
-I (Systick.h)(0x5F075A2E)
-F (.\SysTick.h)(0x5F075A2E)()
-F (.\UART.c)(0x5F0774FA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-IC:/Users/victo/AppData/Local/Keil_v5/ARM/RV31/INC-IC:/Users/victo/AppData/Local/Keil_v5/ARM/INC/TI/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./uart.o -MMD)
-I (UART.h)(0x5EFDE111)
-I (tm4c123gh6pm.h)(0x5EF23F94)
-F (.\UART.h)(0x5EFDE111)()
-F (.\ST7735.c)(0x5F07309A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-IC:/Users/victo/AppData/Local/Keil_v5/ARM/RV31/INC-IC:/Users/victo/AppData/Local/Keil_v5/ARM/INC/TI/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./st7735.o -MMD)
-I (ST7735.h)(0x5EF94149)
-I (tm4c123gh6pm.h)(0x5EF23F94)
-F (.\ST7735.h)(0x5EF94149)()
-F (.\DAC.c)(0x5F075A47)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-IC:/Users/victo/AppData/Local/Keil_v5/ARM/RV31/INC-IC:/Users/victo/AppData/Local/Keil_v5/ARM/INC/TI/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./dac.o -MMD)
-I (DAC.h)(0x5F01F9A7)
-F (.\DAC.h)(0x5F01F9A7)()
-F (.\MODO_JUEGO.c)(0x5F067CAC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-IC:/Users/victo/AppData/Local/Keil_v5/ARM/RV31/INC-IC:/Users/victo/AppData/Local/Keil_v5/ARM/INC/TI/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./modo_juego.o -MMD)
-I (ST7735.h)(0x5EF94149)
-I (tm4c123gh6pm.h)(0x5EF23F94)
-I (PLL.h)(0x5EFDE111)
-I (UART.h)(0x5EFDE111)
-I (SysTick.h)(0x5F075A2E)
-I (LEDS_Y_PULSADORES.h)(0x5F07291D)
-I (MODO_JUEGO.h)(0x5F067CA8)
-F (.\MODO_JUEGO.h)(0x5F067CA8)()
-F (.\mostrar_ocultar.c)(0x5F07291E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-IC:/Users/victo/AppData/Local/Keil_v5/ARM/RV31/INC-IC:/Users/victo/AppData/Local/Keil_v5/ARM/INC/TI/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./mostrar_ocultar.o -MMD)
-I (ST7735.h)(0x5EF94149)
-I (tm4c123gh6pm.h)(0x5EF23F94)
-I (mostrar_ocultar.h)(0x5F076128)
-F (.\mostrar_ocultar.h)(0x5F076128)()
-F (.\MENU.c)(0x5F075B13)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=none -mfloat-abi=soft -c-fno-rtti -fsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-IC:/Users/victo/AppData/Local/Keil_v5/ARM/RV31/INC-IC:/Users/victo/AppData/Local/Keil_v5/ARM/INC/TI/TM4C123-D__UVISION_VERSION="543" -DTM4C123GH6PM-o ./menu.o -MMD)
-I (ST7735.h)(0x5EF94149)
-I (tm4c123gh6pm.h)(0x5EF23F94)
-I (PLL.h)(0x5EFDE111)
-I (UART.h)(0x5EFDE111)
-I (SysTick.h)(0x5F075A2E)
-I (LEDS_Y_PULSADORES.h)(0x5F07291D)
-I (MODO_JUEGO.h)(0x5F067CA8)
-I (mostrar_ocultar.h)(0x5F076128)
-I (MENU.h)(0x5F04CD9A)
-F (.\MENU.h)(0x5F04CD9A)()

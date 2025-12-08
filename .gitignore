@@ -1,0 +1,29 @@
+# Build files
+*.o
+*.obj
+*.crf
+*.axf
+*.d
+*.lst
+*.map
+*.dep
+*.lnp
+*.bak
+
+# Keil uVision specific
+*.uvopt
+*.uvoptx
+*.uvprojx.bak
+*.uvproj.bak
+
+# Output binaries
+*.bin
+*.hex
+*.out
+
+# Logs
+*.log
+*.htm
+
+# Windows stuff
+Thumbs.db
