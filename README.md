@@ -44,5 +44,9 @@ Run using:
 
 ---
 
+## Applications
+- Embedded systems education and microcontroller programming practice
+- Demonstration of real-time systems using SysTick-based scheduling
+- Low-level hardware interaction (GPIO, DAC, LCD drivers)
 ## License
 Academic project – no commercial use.
